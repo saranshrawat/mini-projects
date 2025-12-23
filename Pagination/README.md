@@ -1,18 +1,62 @@
-# React + Vite
+# Pagination
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application demonstrating pagination functionality (currently using default Vite template).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with Vite for fast development
+- React with modern hooks
+- ESLint configuration
+- Hot Module Replacement (HMR)
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React 18
+- Vite
+- ESLint
 
-Note: This will impact Vite dev & build performances.
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (v16 or higher)
+- npm
+
+### Installation
+
+1. Navigate to the Pagination directory:
+   ```bash
+   cd Pagination
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) to view the app.
+
+## Available Scripts
+
+- `npm run dev` - Starts development server with HMR
+- `npm run build` - Builds for production
+- `npm run lint` - Runs ESLint
+- `npm run preview` - Preview production build
+
+## Project Structure
+
+- `src/` - Source code
+- `public/` - Static assets
+- `vite.config.js` - Vite configuration
+- `eslint.config.js` - ESLint configuration
+
+## Learn More
+
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://react.dev/)
+- [React Compiler](https://react.dev/learn/react-compiler)
