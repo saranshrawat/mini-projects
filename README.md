@@ -5,8 +5,6 @@ A monorepo containing various mini React projects for learning and experimentati
 ## Projects
 
 - **advice_creator**: A project for generating advice.
-- **cards_app**: An application for managing cards.
-- **gemini_clone**: A clone of the Gemini AI interface.
 - **Pagination**: A pagination component example.
 - **redux**: Redux examples including counter and todo list.
 - **todo_list**: A simple todo list application.
